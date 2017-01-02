@@ -20,7 +20,7 @@ exdata_feb$DateTime<-as.POSIXct(exdata_feb$DateTime)
 plot(exdata_feb$Sub_metering_1~exdata_feb$DateTime, type="l",ylab="Energy sub metering", xlab="")
 lines(exdata_feb$Sub_metering_2~exdata_feb$DateTime, col='Red')
 lines(exdata_feb$Sub_metering_3~exdata_feb$DateTime, col='blue')
-legend("topright",col=c("black", "red", "blue"), lty=1,lwd=1,cex=.75,legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
+legend("topright",col=c("black", "red", "blue"), lty=1,lwd=1,cex=.70,legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
 
 #Plot3 png
 
